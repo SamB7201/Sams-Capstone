@@ -2,8 +2,35 @@
     ViewData["Title"] = "Home Page";
 }
 
+
+
 <div class="text-center" style="font-family:'Book Antiqua'">
     <h1>Welcome</h1>
     <h4>This Web Portfolio is a small display of my previous works during my time at Pittsburgh Technical College.
     Below are links to pages of three of my favorite projects and an about me page.</h4>
+
+    <div class="container-fluid">
+        <ul class="nav d-inline">
+            <li class="nav-item" style="padding: 10px;">
+                <button>
+                    <a class="nav-link text-dark"asp-area="" asp-controller="Home" asp-action="Project1">Project 1</a>
+                </button>
+            </li>
+            <li class="nav-item" style="padding: 10px">
+                <button>
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Project2">Project 2</a>
+                </button>
+            </li>
+            <li class="nav-item" style="padding: 10px">
+                <button>
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Project3">Project 3</a>
+                </button>
+            </li>
+            <li class="nav-item" style="padding: 10px">
+                <button>
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="AboutMe">About Me</a>
+                </button>
+            </li>
+        </ul>
+    </div>
 </div>
