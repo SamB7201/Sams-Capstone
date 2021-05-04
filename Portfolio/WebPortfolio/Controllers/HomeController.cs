@@ -28,6 +28,26 @@ namespace WebPortfolio.Controllers
             return View();
         }
 
+        public IActionResult Project1()
+        {
+            return View();
+        }
+
+        public IActionResult Project2()
+        {
+            return View();
+        }
+
+        public IActionResult Project3()
+        {
+            return View();
+        }
+
+        public IActionResult AboutMe()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
