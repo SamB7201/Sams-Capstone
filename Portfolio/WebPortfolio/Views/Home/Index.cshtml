@@ -2,9 +2,30 @@
     ViewData["Title"] = "Home Page";
 }
 
+<style>
+    a {
+        width: 500px;
+        font-size: 25px;
+        color: whitesmoke;
+    }
 
+    button{
+        background-color: dodgerblue;
+        border-radius: 15px;
+    }
 
-<div class="text-center" style="font-family:'Book Antiqua'">
+    h1{
+        padding-top: 25px;
+        font-size: 45px;
+    }
+    h4{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+</style>
+
+<div class="text-center" style="font-family:'Book Antiqua';">
     <h1>Welcome</h1>
     <h4>This Web Portfolio is a small display of my previous works during my time at Pittsburgh Technical College.
     Below are links to pages of three of my favorite projects and an about me page.</h4>
@@ -13,22 +34,22 @@
         <ul class="nav d-inline">
             <li class="nav-item" style="padding: 10px;">
                 <button>
-                    <a class="nav-link text-dark"asp-area="" asp-controller="Home" asp-action="Project1">Project 1</a>
+                    <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Project1">Colony Infestation</a>
                 </button>
             </li>
             <li class="nav-item" style="padding: 10px">
                 <button>
-                    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Project2">Project 2</a>
+                    <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Project2">Game Cheats</a>
                 </button>
             </li>
             <li class="nav-item" style="padding: 10px">
                 <button>
-                    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Project3">Project 3</a>
+                    <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Project3">Create a Superhero</a>
                 </button>
             </li>
             <li class="nav-item" style="padding: 10px">
                 <button>
-                    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="AboutMe">About Me</a>
+                    <a class="nav-link" asp-area="" asp-controller="Home" asp-action="AboutMe">About Me</a>
                 </button>
             </li>
         </ul>
