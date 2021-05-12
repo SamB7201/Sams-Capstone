@@ -4,7 +4,7 @@
 
 <style>
     a {
-        width: 500px;
+        width: 250px;
         font-size: 25px;
         color: whitesmoke;
     }
@@ -15,43 +15,52 @@
     }
 
     h1{
-        padding-top: 25px;
+        color: black;
+        background-color: lightgrey;
+        margin-bottom: 0px;
         font-size: 45px;
     }
     h4{
-        padding-top: 10px;
+        color: black;
+        background-color: lightgrey;
+        margin-top: 0px;
         padding-bottom: 10px;
     }
 
 </style>
 
-<div class="text-center" style="font-family:'Book Antiqua';">
-    <h1>Welcome</h1>
-    <h4>This Web Portfolio is a small display of my previous works during my time at Pittsburgh Technical College.
-    Below are links to pages of three of my favorite projects and an about me page.</h4>
+<body style="background-image: url(https://samb7201.github.io/PortfolioCSS/images/Background.jpeg); background-size: cover">
+    <div class="text-center" style="font-family:'Book Antiqua';">
+        <br/><br/>
+        <h1>Welcome</h1>
+        <h4>
+            This Web Portfolio is a small display of my previous works during my time at Pittsburgh Technical College.
+            Below are links to pages of three of my favorite projects and an about me page.
+        </h4>
 
-    <div class="container-fluid">
-        <ul class="nav d-inline">
-            <li class="nav-item" style="padding: 10px;">
-                <button>
-                    <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Project1">Colony Infestation</a>
-                </button>
-            </li>
-            <li class="nav-item" style="padding: 10px">
-                <button>
-                    <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Project2">Game Cheats</a>
-                </button>
-            </li>
-            <li class="nav-item" style="padding: 10px">
-                <button>
-                    <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Project3">Create a Superhero</a>
-                </button>
-            </li>
-            <li class="nav-item" style="padding: 10px">
-                <button>
-                    <a class="nav-link" asp-area="" asp-controller="Home" asp-action="AboutMe">About Me</a>
-                </button>
-            </li>
-        </ul>
+        <div class="container-fluid">
+            <ul class="nav d-inline">
+                <li class="nav-item" style="padding: 10px">
+                    <button>
+                        <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Project3">Create a Superhero</a>
+                    </button>
+                </li>
+                <li class="nav-item" style="padding: 10px">
+                    <button>
+                        <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Project2">Game Cheats</a>
+                    </button>
+                </li>
+                <li class="nav-item" style="padding: 10px;">
+                    <button>
+                        <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Project1">Colony Infestation</a>
+                    </button>
+                </li>
+                <li class="nav-item" style="padding: 10px">
+                    <button>
+                        <a class="nav-link" asp-area="" asp-controller="Home" asp-action="AboutMe">About Me</a>
+                    </button>
+                </li>
+            </ul>
+        </div>
     </div>
-</div>
+</body>
