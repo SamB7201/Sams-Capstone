@@ -43,6 +43,10 @@ namespace WebPortfolio.Controllers
             return View();
         }
 
+        public IActionResult TextAdv()
+        {
+            return View();
+        }
         public IActionResult AboutMe()
         {
             return View();

@@ -113,3 +113,4 @@ G:\PTC QUARTERS\Quarter 7\Capstone\Sams-Capstone\Portfolio\WebPortfolio\obj\Debu
 G:\PTC QUARTERS\Quarter 7\Capstone\Sams-Capstone\Portfolio\WebPortfolio\obj\Debug\netcoreapp3.1\Razor\Views\Home\Project3.cshtml.g.cs
 G:\PTC QUARTERS\Quarter 7\Capstone\Sams-Capstone\Portfolio\WebPortfolio\obj\Debug\netcoreapp3.1\Razor\Views\Home\AboutMe.cshtml.g.cs
 G:\PTC QUARTERS\Quarter 7\Capstone\Sams-Capstone\Portfolio\WebPortfolio\bin\Debug\netcoreapp3.1\Properties\ServiceDependencies\Samuel-WebPortfolio - Web Deploy\profile.arm.json
+G:\PTC QUARTERS\Quarter 7\Capstone\Sams-Capstone\Portfolio\WebPortfolio\obj\Debug\netcoreapp3.1\Razor\Views\Home\TextAdv.cshtml.g.cs
