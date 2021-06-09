@@ -114,3 +114,4 @@ G:\PTC QUARTERS\Quarter 7\Capstone\Sams-Capstone\Portfolio\WebPortfolio\obj\Rele
 G:\PTC QUARTERS\Quarter 7\Capstone\Sams-Capstone\Portfolio\WebPortfolio\obj\Release\netcoreapp3.1\WebPortfolio.genruntimeconfig.cache
 G:\PTC QUARTERS\Quarter 7\Capstone\Sams-Capstone\Portfolio\WebPortfolio\bin\Release\netcoreapp3.1\Properties\ServiceDependencies\Samuel-WebPortfolio - Web Deploy\profile.arm.json
 G:\PTC QUARTERS\Quarter 7\Capstone\Sams-Capstone\Portfolio\WebPortfolio\obj\Release\netcoreapp3.1\Razor\Views\Home\TextAdv.cshtml.g.cs
+G:\PTC QUARTERS\Quarter 7\Capstone\Sams-Capstone\Portfolio\WebPortfolio\obj\Release\netcoreapp3.1\Razor\Views\Home\UniGame.cshtml.g.cs
