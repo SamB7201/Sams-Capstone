@@ -53,6 +53,11 @@ namespace WebPortfolio.Controllers
             return View();
         }
 
+        public IActionResult Madman()
+        {
+            return View();
+        }
+
         public IActionResult AboutMe()
         {
             return View();
